@@ -1,19 +1,19 @@
 from setuptools import setup 
 
 setup(
-    name = 'gloxon',
+    name = 'gloxon-oauth',
     version = '0.1.0',
-    description = 'Python bindings to Gloxon LLC services. This package contains no code at the moment.',
-    url='https://gloxoninc.com',
+    description = 'A module that provide a Python interface to the Gloxon Oauth API',
+    url='https://github.com/gloxon/gloxon-oauth',
     author='Gloxon LLC',
     author_email='gloxongp@gmail.com',
     license = "MIT",
-    packages = ['gloxon'],
+    packages = ['gloxonoauth'],
     install_requires = ['requests'],
 
     classifiers = [
-        'Development Status :: 1 - Planning',
-        'Intended Audience :: Science/Research',
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3'

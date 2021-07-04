@@ -1,6 +1,7 @@
 **Introduction**
 
-Python binding to Gloxon Services. This package at the moment contents no code. 
+A module that provide a Python interface to the Gloxon Oauth API. 
+
 
 
 
